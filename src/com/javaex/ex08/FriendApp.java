@@ -11,11 +11,8 @@ public class FriendApp {
         for(int i = 0; i < fArray.length; i++) {
         	String fInfo = sc.nextLine();
         	String[] sArray = fInfo.split(" ");
-        	String name = sArray[0];
-        	String hp = sArray[1];
-        	String school = sArray[2];
         	
-        	fArray[i] = new Friend(name, hp, school);
+        	fArray[i] = new Friend(sArray[0], sArray[1], sArray[2]);
         }
         
         for (int i = 0; i < fArray.length; i++) {
