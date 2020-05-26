@@ -20,19 +20,19 @@ public class CalcApp {
 
 			if(op.equals("+")) {
 				Add add = new Add();
-				add.calculate(num1, num2);
+				System.out.println(">> " + add.calculate(num1, num2));
 			}
 			else if(op.equals("-")) {
 				Sub sub = new Sub();
-				sub.calculate(num1, num2);
+				System.out.println(">> " + sub.calculate(num1, num2));
 			}
 			else if(op.equals("/")) {
 				Div div = new Div();
-				div.calculate(num1, num2);
+				System.out.println(">> " + div.calculate(num1, num2));
 			}
 			else if(op.equals("*")) {
 				Mul mul = new Mul();
-				mul.calculate(num1, num2);
+				System.out.println(">> " + mul.calculate(num1, num2));
 			}
 			else {
 				System.out.println("알 수 없는 연산입니다.");

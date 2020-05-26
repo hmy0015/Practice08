@@ -9,7 +9,6 @@ public class Div {
     }
 
     public int calculate(int a, int b) {
-    	System.out.println(">> " + (this.a / this.b));
-    	return this.a / this.b;
+    	return a / b;
     }
 }
